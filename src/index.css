@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url('./Image/bgcb.png');
+    height:0;
+    height: 100vh;
+}
+.App{
+    position: relative;
+    width: 1380px;
+    height: 0;
 }
 nav{
     display: flex;
