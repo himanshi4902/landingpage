@@ -1,10 +1,10 @@
 import React from 'react'
-import Logo from '../Image/Logo.png'
+import cblogo from '../Image/cblogo.png'
 
 function Header() {
   return (
     <div>
-      <img src={Logo} alt="Logo" />
+      <img className="landinglogo" src={cblogo} alt="Logo" />
     </div>
   )
 }

@@ -3,21 +3,21 @@ import Rocket from '../Image/Rocket.png'
 
 function Content() {
     return (
-        <div className="content">
+        <div>
             <main>
-                <div className='text'>
+                <div className='landingtext'>
                     <h1>WELCOME TO</h1>
                     <h1>SLOT BOOKING</h1>
                     <h1>PORTAL OF IGDTUW</h1>
-                     <h2>Login as:</h2>
+                     <h2 className='landinglogin'>Login as:</h2>
                 </div>
                 <div className="Buttons">
-                    <button className='Admin'>Admin</button>
-                    <button className='Student'>Student</button>
+                    <button className='landingAdmin'>Admin</button>
+                    <button className='landingStudent'>Student</button>
                 </div>
             </main>
             <figure>
-                <img src={Rocket} alt="Rocket" height={550} width={550} className="Rocket" />
+                <img src={Rocket} alt="Rocket"  className="Rocket" />
             </figure>
         </div>
     )
