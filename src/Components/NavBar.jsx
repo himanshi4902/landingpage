@@ -3,10 +3,9 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 function NavBar() {
     return (
-        <div className='Parent'>
+        <div>
         <nav>
-            <div class="nav-items" id="navItems">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <div class="landing_nav-items">
                 {/* <ul> */}
                     <MDBRow>
                         <MDBCol>
@@ -24,7 +23,6 @@ function NavBar() {
                    <li>TEAM</li> 
                 </ul> */}
             </div>
-            <i class="fa fa-bars"onclick="showMenu()"></i>
         </nav>
         </div>
     )

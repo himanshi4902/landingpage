@@ -11,50 +11,20 @@
     background-image: url('./Image/bgcb.png');
     height: 100vh;
 }
-nav{
-        display: flex;
-        padding: 2% 3%;
-        justify-content: space-between;
-        align-items: center; 
-    }
-    .nav-items{
+.landing_nav-items{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        padding: 15px 150px;
-        gap: 10px;
-        
         position: absolute;
         width: 410px;
         height: 50px;
         left: 1000px;
         top: 20px;
-        
-        /* Background */
-        
         background: #FCFCFC;
         border-radius: 25px 0px 0px 25px;
      }
-     .nav-items ul {
-        list-style: none;
-        width: 55px;
-        height: 27px;
-        flex-direction: column;
-        display:inline;
-        gap:10px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
-        color: #24014E;
-        
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-     }
+
+     
 h1{
     margin: 0;
     font-size: 2.6rem;
@@ -73,7 +43,7 @@ h1{
     font-size:1.4rem;
 }
 
-.Buttons{
+.landingButtons{
    display:flex;
    flex-direction: row;
    margin-top:30px;
@@ -103,7 +73,7 @@ h1{
     border-radius:20px;
     background-color: rgb(36,1,78);
 }
-.Rocket{
+.landingRocket{
     position: absolute;
     width: 440px; 
     height: 470px;
